@@ -1,0 +1,845 @@
+p{
+    font-size: 14px;
+}
+h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+.design-lien
+{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.bold
+{
+    font-weight: bold;
+}
+.i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border : 1px solid  #d9d9d9;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.information div p
+{
+    font-size: 16px;
+}
+.text-taille
+{
+    font-weight: 700;
+    font-size: 18px;
+}
+.divheader
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+.divheader div
+{
+    padding-top: 15px;
+}
+.divheader1
+{
+    display: flex;
+    gap: 15px;
+    margin-top: 0px;
+}
+.divheader2
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 150px;
+    padding-top: 48px;
+    border-top: #ffffff solid 2px;
+}
+.divheader2:hover
+{
+    border-top: #0065FC solid 2px;
+}
+.divheader2 p
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.divheader2:hover p a
+{
+    color: #0065FC;
+}
+.divheader2 p a
+{
+    text-decoration: none;
+    color: black;
+}
+.imgbooki
+{
+    width: 62px;
+    height: 20px;
+}
+.margin
+{
+    margin-left: 50px;
+}
+.divrech
+{
+    height: 50px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divbarre
+{
+    display: flex;
+    margin-left: 50px;
+}
+#searchbar
+{
+    height: 45px;
+    width: 230px;
+    border: none;
+    outline: #F2F2F2 solid 2px;
+}
+.vector
+{
+    width: 14px;
+    height: 18px;
+}
+.divbouton
+{
+    display: flex;
+    height: 50px;
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0065FC;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.divboutonmobile
+{
+    display: none;
+    height: 50px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0065FC;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.divicone
+{
+    height: 50px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F2F2;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.button
+{
+    cursor: pointer;
+    background-color: #0065FC;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.classtitre
+{
+    margin-left: 50px;
+}
+.cartehebergement_img
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 115px;
+    width: 245px;
+    object-fit: cover;
+}
+.center_img
+{
+   display: flex;
+   justify-content: center;
+}
+.cartehebergement
+{
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+    box-shadow: 3px 5px 5px #e2e2e2;
+    height: 220px;
+    width: 245px;
+    background-color: white;
+    border : 5px solid white;
+}
+.cartepopulaire
+{
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+    box-shadow: 3px 5px 5px #e2e2e2;
+    height: 130px;
+    width: 330px;
+    display: flex;
+    margin-bottom: 40px;
+    background-color: white;
+    border: 5px solid white;
+}
+.divrech input::placeholder
+{
+    font-weight: bold;
+    color: black;
+}
+.cartepopulaire_img
+{
+    width: 120px;
+    height: 130px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.black-color
+{
+    color: black;
+}
+.populaire .fa-solid
+{
+    color: #0065FC;
+}
+.carte_text .fa-solid
+{
+    color: #0065FC;
+}
+.itext .fa-solid
+{
+    color: #0065FC;
+}
+.divfiltre .fa-solid
+{
+    color: #0065FC;
+}
+.carte_text .secondary-color
+{
+    color: #F2F2F2;
+}
+.annonces
+{
+    display: flex;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 20px;
+}
+.divhebergement
+{
+    border-radius: 20px;
+    max-width: 880px;
+    background-color: #F2F2F2;
+}
+.carteactivités_img img
+{
+    height: 389px;
+    width: 302px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.texthebergement
+{
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.populaire
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.grandediv
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.lespluspolulaire
+{
+    border-radius: 20px;
+    max-width: 880px;
+    background-color: #F2F2F2;
+    padding: 30px;
+}
+.activités
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+.carteactivités
+{
+    border-radius: 20px;
+    box-shadow:  #e2e2e2 0px 4px 12px;
+    height: 450px;
+    width: 300px;
+}
+.filtres
+{
+    display: flex;
+    justify-content: space-between;
+}
+.carte_text
+{
+    margin-left: 10px;
+}
+.barrefiltre
+{
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    margin-left: 50px;
+}
+.divfiltre
+{
+    display: flex;
+    align-items: center;
+    border: 2px solid #D9D9D9;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-height: 40px;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.divfiltre:hover
+{
+    background-color: #DEEBFF;
+}
+.logo
+{
+    margin-right: 10px;
+}
+.itext
+{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    gap: 5px;
+    margin-top: 20px;
+}
+.carteactivités_img img
+{
+    height: 389px;
+    width: 302px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.activités_text
+{
+    display: flex;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+footer
+{
+    background: #F2F2F2;
+    height: 225px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer_in
+{
+    display: flex;
+    margin-left: 80px;
+    padding-top: 20px;
+    gap: 180px;
+}
+.footer_in_2
+{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 992px)
+    {
+        .cartehebergement
+        {
+            border-radius: 20px;
+            height: 220px;
+            width: 185px;
+            padding: 2px; 
+        }
+        .cartehebergement_img
+        {
+            height: 95px;
+            width: 185px;
+        }
+        .activités_text
+        {
+            margin-top: -10px;
+        }
+        .texthebergement
+        {
+            margin-bottom: 10px;
+            padding-top: 10px;
+            padding-bottom: 15px;
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+        .annonces
+        {
+            padding-left: 30px;
+            gap: 30px;
+        }
+        .divfiltre
+        {
+            margin-right: 0px;
+        }
+        .grandediv 
+        {
+            display: block;
+        }
+        .mediapopulaire
+        {
+            display: flex;
+            gap: 10px;
+        }
+        .carteactivités
+        {
+            border-radius: 20px;
+            height: 265px;
+            width: 160px;
+            cursor: pointer;
+        }
+        .carteactivités_img img
+        {
+            height: 210px;
+            width: 160px;
+            object-fit: cover;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .cartepopulaire_img
+        {
+            width: 60px;
+            height: 135px;
+        }
+        .cartepopulaire
+        {
+            height: 135px;
+            width: 200px;
+        }
+        .activités_text
+        {
+            display: flex;
+            margin-left: 10px;
+        }
+        .footer_in
+        {
+            gap: 0px;
+            justify-content: space-around;
+            margin-left: 20px;
+        }
+    }
+@media screen and (max-width: 768px)
+    {
+        h3
+        {
+            font-size: 16px;
+        }
+        body
+        {
+            width: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .title-title
+        {
+            display: flex;
+            justify-content: center;
+        }
+        .margin
+        {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .divrech input, .divrech, #searchbar
+        {
+            width: 100%;
+        }
+        .divheader1
+        {
+            gap: 0px;
+            padding-left: 0px;
+        }
+        .divbouton
+        {
+            display: none;
+        }
+        .divboutonmobile
+        {
+            display: flex;
+        }
+        .divheader
+        {
+            display: block;
+            flex-direction: column;
+            margin-left: 0;
+            padding-left: 0px;
+            margin-right: 0;
+            justify-content: center;
+        }
+        .title-title
+        {
+            padding-top: 25px;
+        }
+        .divheader div
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 10px;
+        }
+        .grandediv
+        {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            padding-left: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .logo
+        {
+            margin-right: 3px;
+        }
+        .divbarre
+        {
+            display: flex;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .barrefiltre
+        {
+            display: flex;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-top: 40px;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+        .filtres
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .divfiltre
+        {
+            margin-bottom: 10px;
+            margin-left: 0px;
+            width: 175px;
+            font-size: 13px;
+        }
+        .itext
+        {
+        margin-left: 10px;
+        margin-right: 10px;
+        align-items:start;
+        }
+        .i
+        {
+            margin-top: 10px;
+        }
+        .texthebergement
+        {
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-bottom: 0px;
+        }
+        .mediapopulaire
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .cartepopulaire
+        {
+            height: 150px;
+            width: 330px;
+            display: flex;
+            margin-bottom: 20px;
+            background-color: white;
+ 
+            cursor: pointer;
+        }
+        .cartepopulaire_img
+        {
+            width: 120px;
+            height: 150px;
+            object-fit: cover;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+        .divhebergement
+        {
+            border-radius: 20px;
+            max-width: 880px;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+        }
+        .annonces
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+        .cartehebergement
+        {
+
+            border-radius: 20px;
+            box-shadow: 3px 5px 5px #e2e2e2;
+            height: 200px;
+            width: 330px;
+            background-color: white;
+            padding: 2px; 
+            cursor: pointer;  
+        }
+        .cartehebergement_img
+        {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            height: 100px;
+            width: 330px;
+            object-fit: cover;
+        }
+        .center_img
+        {
+            display: flex;
+            justify-content: center;
+            width: 325px;
+            height: 115px;
+        }
+        .masquer
+        {
+            visibility: hidden;
+        }
+        .classtitre
+        {
+            margin-left: 50px;
+            width: 100px;
+        }
+        .activités
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 2px;
+        }
+        .carteactivités
+        {
+
+            border-radius: 20px;
+
+            height: 190px;
+            width: 330px;
+            cursor: pointer;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .carteactivités_img img
+        {
+            height:130px;
+            width: 330px;
+            object-fit: cover;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .lespluspolulaire
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 0px;
+            min-width: 100%;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-left: 0;
+            background-color: #F2F2F2;
+            margin-right: 0px;
+            padding: 0px;
+        }
+        .mediapopulaire
+        {
+            display: flex;
+            flex-direction: column;
+        }
+        .cartehebergement
+        {
+
+            border-radius: 20px;
+            box-shadow: 3px 5px 5px #e2e2e2;
+            height: 200px;
+            width: 330px;
+            background-color: white;
+            padding: 2px; 
+            cursor: pointer;  
+        }
+        .cartehebergement_img
+        {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            height: 100px;
+            width: 330px;
+            object-fit: cover;
+        }
+        .cartepopulaire
+        {
+
+            border-radius: 20px;
+            box-shadow: 3px 5px 5px #e2e2e2;
+            height: 150px;
+            width: 330px;
+            display: flex;
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 2px;  
+            cursor: pointer;
+        }
+        .cartepopulaire_img
+        {
+            width: 120px;
+            height: 150px;
+            object-fit: cover;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+        .divheader2
+        {
+            padding-top: 50px;
+            padding-right: 0;
+            margin-top: 20px;
+            padding-bottom: 20px;
+            width: 100%;
+            border-bottom: 2px solid #F2F2F2;
+        }
+        .divheader2:hover
+        {
+            border-top: 2px solid white;
+            border-bottom: 2px solid #0065FC;
+        }
+        .classtitre
+        {
+        margin-left: 25px;
+        }
+        .populaire
+        {
+            justify-content: space-between;
+            width: 330px;
+        }
+        .activités
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 2px;
+        }
+        .classtitre
+        {
+            width: 200px;
+        }
+        .barrefiltre
+        {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+        .carteactivités
+        {
+
+            border-radius: 20px;
+
+            height: 190px;
+            width: 330px;
+            cursor: pointer;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+        .carte_text
+        {
+            margin-top: -8px;
+        }
+        .carteactivités_img img
+        {
+            height:130px;
+            width: 330px;
+            object-fit: cover;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        footer
+        {
+            height: 400px;
+            margin: 0;
+        }
+        .footer_in
+        {
+            gap: 0px;
+            display: block;
+            margin-left: 25px;
+        }
+    }
